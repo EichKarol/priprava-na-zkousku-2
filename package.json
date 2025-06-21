@@ -2,22 +2,18 @@
   "name": "es6-react",
   "version": "2.1.0",
   "scripts": {
-    "start": "webpack serve",
-    "build": "webpack"
+    "start": "vite",
+    "build": "vite build"
   },
   "devDependencies": {
-    "@babel/core": "7.5.5",
-    "@babel/plugin-proposal-class-properties": "7.10.1",
-    "@babel/preset-env": "7.5.5",
-    "@babel/preset-react": "7.7.0",
-    "babel-loader": "8.2.5",
-    "process": "0.11.10",
-    "webpack": "5.72.1",
-    "webpack-cli": "4.10.0",
-    "webpack-dev-server": "4.9.0"
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "globals": "^16.0.0",
+    "vite": "^6.3.5"
   },
   "dependencies": {
-    "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
