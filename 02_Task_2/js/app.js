@@ -49,3 +49,40 @@ const users = [
 /**
  * Write your code below!
  */
+
+// funkce FILTER
+const englishUsers = users.filter( (user) => {
+    return user.language === 'English'
+} )
+
+const frenchUsers = users.filter( (user) => {
+    return user.language === 'French'
+})
+
+const idUsers = users.filter( (user) => {
+    return user.id > 2
+})
+
+
+
+console.table(englishUsers);
+console.table(frenchUsers);
+console.table(idUsers);;
+
+// funkce MAP
+
+const jmena = ['Alena', 'Boris', 'Cecilie', 'David', 'Eva'];
+
+const delky = jmena.map( (jmeno) => {
+    return jmeno.length;
+} )
+
+// const osoby = users.map ( (jmeno) => {
+//     return {
+//         krestniJmeno: jmena,
+//         delkaJmena: jmeno.length
+//     }
+// } )
+
+console.log(delky);
+// console.table(osoby);
